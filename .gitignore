@@ -254,3 +254,9 @@
 /packages/Microsoft.AspNet.WebPages.zh-Hans.3.0.0/lib/net45/zh-Hans/system.web.webpages.deployment.xml
 /packages/Microsoft.AspNet.WebPages.zh-Hans.3.0.0/lib/net45/zh-Hans/system.web.webpages.razor.xml
 /packages/Microsoft.AspNet.WebPages.zh-Hans.3.0.0/lib/net45/zh-Hans/system.web.webpages.xml
+/packages/Microsoft.AspNet.Mvc.5.0.0/*.nuspec
+/packages/Microsoft.AspNet.Mvc.zh-Hans.5.0.0/*.nuspec
+/packages/Microsoft.AspNet.Razor.3.0.0/*.nuspec
+/packages/Microsoft.AspNet.Razor.zh-Hans.3.0.0/*.nuspec
+/packages/Microsoft.AspNet.WebPages.3.0.0/*.nuspec
+/packages/Microsoft.AspNet.WebPages.zh-Hans.3.0.0/*.nuspec
