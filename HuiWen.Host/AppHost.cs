@@ -6,7 +6,7 @@ namespace HuiWen.Host
     public class AppHost : AppHostBase
     {
         public AppHost()
-            : base("HuiWen Service", typeof(UserService).Assembly)
+            : base("HuiWen Service", typeof(GetNickNameByUserIdService).Assembly)
         {
         }
 

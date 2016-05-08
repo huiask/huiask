@@ -14,21 +14,10 @@ namespace HuiWen.DAL
         /// </summary>
         /// <param name="userId"></param>
         /// <returns></returns>
-        public int GetBaseUserInfo(int userId)
+        public string GetNickNameByUserId(int userId)
         {
-            return userId;
-//            const string sqlQuery = @"select userid
-//                                        ,nickname
-//                                        ,password
-//                                        ,answer
-//                                        ,verifycount
-//                                        ,verifytime
-//                                        ,verifycode
-//                                        ,multionline,TradeVerify,TradeVerify_Time
-//                                        ,flag
-//                                    from [ah_user]
-//                                    where userid = @userid";
-//            return DbContext.Execute(conn => conn.Query<int>(sqlQuery, new { userid = userId }).FirstOrDefault());
+            string sqlQuery = "select NickName from ah_user where UserId=@userId";
+            return DbContext.Execute(conn => conn.Query<string>(sqlQuery, new { userid = userId }).FirstOrDefault());
         }
         #endregion
     }

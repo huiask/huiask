@@ -10,21 +10,21 @@ using ServiceStack.ServiceInterface;
 namespace HuiWen.Service
 {
 
-    #region 查询用户的邀请码信息 q/Event/GetUserInviteKeyRequest
+    #region 查询用户的邀请码信息 q/Event/GetNickNameByUserIdRequset
 
-    [RestService("q/User/GetUserIdRequset")]
-    public class UserService
+    [RestService("q/User/GetNickNameByUserIdRequset")]
+    public class GetNickNameByUserIdService
     {
 
         public int userId { get; set; }
 
     }
-    public class GetUserInviteKeyService : RestServiceBase<UserService>
+    public class GetUserInviteKeyService : RestServiceBase<GetNickNameByUserIdService>
     {
 
-        public override object OnGet(UserService request)
+        public override object OnGet(GetNickNameByUserIdService request)
         {
-            return new UserManage().GetBaseUserInfo(request.userId);
+            return new UserManage().GetNickNameByUserId(request.userId);
 
         }
 
