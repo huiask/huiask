@@ -113,8 +113,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -125,8 +126,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="packages.config" />
-    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Routes.config" />
+    <Content Include="Views\Account\Reg.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -138,6 +140,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HuiWen.Tool\HuiWen.Tool.csproj">
