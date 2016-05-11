@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace HuiWen.User.Controllers
 {
-    public class AccountController : Controller
+    public class AccountController : BaseLoginController
     {
         //
         // GET: /Login/
@@ -24,5 +24,10 @@ namespace HuiWen.User.Controllers
         {
             return Json(new { }, JsonRequestBehavior.AllowGet);
         }
-	}
+
+        public JsonResult RegUser()
+        {
+            return Json(new { }, JsonRequestBehavior.AllowGet);
+        }
+    }
 }

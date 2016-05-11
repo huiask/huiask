@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace HuiWen.User.Controllers
 {
-    public class BaseController : Controller
+    public class BaseController : HuiWen.Tool.Web.BaseUserInfo
     {
         //
         // GET: /Base/
@@ -15,4 +15,12 @@ namespace HuiWen.User.Controllers
 
         }
 	}
+
+    public class BaseLoginController : HuiWen.Tool.Web.BaseUserLoginInfo
+    {
+        public BaseLoginController()
+        {
+
+        }
+    }
 }
