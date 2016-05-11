@@ -62,6 +62,10 @@
       <Project>{f2725807-4764-47a1-94fb-48aaa187ccf8}</Project>
       <Name>HuiWen.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HuiWen.Model\HuiWen.Model.csproj">
+      <Project>{0ca0b1bf-7402-40b4-abe4-b3347f56b634}</Project>
+      <Name>HuiWen.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

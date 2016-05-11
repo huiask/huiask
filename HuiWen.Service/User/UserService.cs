@@ -31,4 +31,46 @@ namespace HuiWen.Service
     }
 
     #endregion
+
+    #region 新建用户 q/Event/AddUserRequset
+
+    [RestService("q/User/AddUserRequset")]
+    public class AddUserRequest : UserEntity
+    {
+
+
+    }
+    public class AddUserService : RestServiceBase<AddUserRequest>
+    {
+
+        public override object OnGet(AddUserRequest request)
+        {
+            return new UserManage().AddUser(request);
+
+        }
+
+    }
+
+    #endregion
+
+    #region 新建用户 q/Event/GetUserInfoRequest
+
+    [RestService("q/User/GetUserInfoRequest")]
+    public class GetUserInfoRequest
+    {
+
+        public int userId { get; set; }
+    }
+    public class GetUserInfoService : RestServiceBase<GetUserInfoRequest>
+    {
+
+        public override object OnGet(GetUserInfoRequest request)
+        {
+            return new UserManage().GetUserInfo(request.userId);
+
+        }
+
+    }
+
+    #endregion
 }

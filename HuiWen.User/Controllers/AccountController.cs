@@ -19,5 +19,10 @@ namespace HuiWen.User.Controllers
         {
             return View();
         }
+
+        public JsonResult LoginUser()
+        {
+            return Json(new { }, JsonRequestBehavior.AllowGet);
+        }
 	}
 }
