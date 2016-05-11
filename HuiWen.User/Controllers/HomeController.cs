@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace HuiWen.User.Controllers
 {
-    public class HomeController : BaseUserLoginInfo
+    public class HomeController : BaseController
     {
         //
         // GET: /Home/
