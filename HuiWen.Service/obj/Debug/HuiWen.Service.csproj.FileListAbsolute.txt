@@ -1,0 +1,15 @@
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\HuiWen.Service.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\HuiWen.Service.pdb
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\HuiWen.DAL.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\HuiWen.Model.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\ServiceStack.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\ServiceStack.Interfaces.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\ServiceStack.OrmLite.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\ServiceStack.ServiceInterface.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\ServiceStack.Text.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\ServiceStack.Common.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\HuiWen.DAL.pdb
+E:\工作资料\web\huiaskMaster\HuiWen.Service\bin\Debug\HuiWen.Model.pdb
+E:\工作资料\web\huiaskMaster\HuiWen.Service\obj\Debug\HuiWen.Service.csprojResolveAssemblyReference.cache
+E:\工作资料\web\huiaskMaster\HuiWen.Service\obj\Debug\HuiWen.Service.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Service\obj\Debug\HuiWen.Service.pdb

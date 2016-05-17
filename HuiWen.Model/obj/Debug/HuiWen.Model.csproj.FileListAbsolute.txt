@@ -1,0 +1,4 @@
+E:\工作资料\web\huiaskMaster\HuiWen.Model\bin\Debug\HuiWen.Model.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Model\bin\Debug\HuiWen.Model.pdb
+E:\工作资料\web\huiaskMaster\HuiWen.Model\obj\Debug\HuiWen.Model.dll
+E:\工作资料\web\huiaskMaster\HuiWen.Model\obj\Debug\HuiWen.Model.pdb

@@ -1,0 +1,10 @@
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\HuiWen.DAL.dll.config
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\HuiWen.DAL.dll
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\HuiWen.DAL.pdb
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\EntityFramework.dll
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\HuiWen.Model.dll
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\bin\Debug\HuiWen.Model.pdb
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\obj\Debug\HuiWen.DAL.csprojResolveAssemblyReference.cache
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\obj\Debug\HuiWen.DAL.dll
+E:\工作资料\web\huiaskMaster\HuiWen.DAL\obj\Debug\HuiWen.DAL.pdb
