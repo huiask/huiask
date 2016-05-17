@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace HuiWen.DAL
+namespace HuiWen.Dal
 {
     /// <summary>
     /// 数据库操作接口

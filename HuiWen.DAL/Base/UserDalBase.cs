@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-namespace HuiWen.DAL
+namespace HuiWen.Dal
 {
     public class UserDalBase : DalBase
     {

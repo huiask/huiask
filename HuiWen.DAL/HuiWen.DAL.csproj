@@ -52,6 +52,7 @@
     <Compile Include="DbContext.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="SqlMapper.cs" />
+    <Compile Include="User\SmsMobileManage.cs" />
     <Compile Include="User\UserManage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

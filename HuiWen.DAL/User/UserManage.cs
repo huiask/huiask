@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Data;
 
-namespace HuiWen.DAL
+namespace HuiWen.Dal
 {
     public class UserManage : UserDalBase
     {

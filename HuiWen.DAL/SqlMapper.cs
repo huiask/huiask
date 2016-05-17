@@ -19,7 +19,7 @@ using System.Threading;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
-namespace HuiWen.DAL
+namespace HuiWen.Dal
 {
     /// <summary>
     /// Dapper, a light weight object mapper for ADO.NET
@@ -3200,7 +3200,7 @@ string name, object value = null, DbType? dbType = null, ParameterDirection? dir
     /// <summary>
     /// This class represents a SQL string, it can be used if you need to denote your parameter is a Char vs VarChar vs nVarChar vs nChar
     /// </summary>
-    sealed partial class DbString : HuiWen.DAL.SqlMapper.ICustomQueryParameter
+    sealed partial class DbString : HuiWen.Dal.SqlMapper.ICustomQueryParameter
     {
         /// <summary>
         /// Create a new DbString

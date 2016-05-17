@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace HuiWen.DAL
+namespace HuiWen.Dal
 {
     /// <summary>
     /// 数据访问基类

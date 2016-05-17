@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HuiWen.DAL;
+using HuiWen.Dal;
 using ServiceStack.ServiceHost;
 using ServiceStack.ServiceInterface;
 
